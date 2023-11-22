@@ -1,12 +1,9 @@
-import Form from './components/Form';
+import ExpenseApp from './components/ExpenseApp'
 
 const App = () => {
   return (
-    <>
-      <Form  />
-    </>
-  );
-};
+    <ExpenseApp />
+  )
+}
 
-
-export default App;
+export default App
